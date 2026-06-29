@@ -5,8 +5,8 @@ import { Component, Input } from '@angular/core';
   template: `
     <div class="mas-select" [class.mas-select--fixed-height]="fixHeight">
       <label *ngIf="label" class="mas-select__label">{{ label }}</label>
-      <select class="mas-select__input" [attr.name]="name" [value]="currentValue">
-        <option *ngFor="let item of data" [value]="item">{{ item }}</option>
+      <select class="mas-select__input" [attr.name]="name">
+        <option *ngFor="let item of data" [value]="item" [selected]="item === currentValue">{{ item }}</option>
       </select>
     </div>
   `,
