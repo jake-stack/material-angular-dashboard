@@ -1,9 +1,9 @@
 /* SystemJS module definition */
-declare var module: NodeModule;
+declare const module: NodeModule;
 interface NodeModule {
   id: string;
 }
 
-declare var getmdlSelect: {
+declare const getmdlSelect: {
   init: any;
 };
