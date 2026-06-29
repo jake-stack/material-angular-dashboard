@@ -15,8 +15,5 @@ import { TooltipDirective } from './tooltip.directive';
   exports: [
     TooltipDirective,
   ],
-  entryComponents: [
-    TooltipComponent,
-  ],
 })
 export class TooltipModule { }

@@ -9,9 +9,6 @@ import { DashboardComponent } from './pages/dashboard';
 import { Dashboard2Component } from './pages/dashboard2';
 import { FormsComponent } from './pages/forms';
 
-// @ts-ignore
-// @ts-ignore
-// @ts-ignore
 @NgModule({
   imports: [
     RouterModule.forRoot(

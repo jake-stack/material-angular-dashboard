@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule as NgFormsModule } from '@angular/forms';
-import { MaterialAngularSelectModule } from 'material-angular-select';
+import { MaterialAngularSelectModule } from '../../shared/material-angular-select';
 
 import { ThemeModule } from 'theme';
 
